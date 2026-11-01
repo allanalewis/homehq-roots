@@ -1,0 +1,1073 @@
+{
+  "schema": 1,
+  "version": 1,
+  "roots": [
+    {
+      "id": "tele",
+      "form": "tele-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "far; at a distance",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "telescope",
+          "before": "",
+          "focus": "tele",
+          "after": "scope"
+        },
+        {
+          "word": "television",
+          "before": "",
+          "focus": "tele",
+          "after": "vision"
+        }
+      ],
+      "words": [
+        "telescope",
+        "television"
+      ]
+    },
+    {
+      "id": "bio",
+      "form": "bio-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "life",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "biology",
+          "before": "",
+          "focus": "bio",
+          "after": "logy"
+        },
+        {
+          "word": "biography",
+          "before": "",
+          "focus": "bio",
+          "after": "graphy"
+        }
+      ],
+      "words": [
+        "biology",
+        "biography"
+      ]
+    },
+    {
+      "id": "geo",
+      "form": "geo-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "earth",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "geology",
+          "before": "",
+          "focus": "geo",
+          "after": "logy"
+        },
+        {
+          "word": "geography",
+          "before": "",
+          "focus": "geo",
+          "after": "graphy"
+        }
+      ],
+      "words": [
+        "geology",
+        "geography"
+      ]
+    },
+    {
+      "id": "graph",
+      "form": "graph",
+      "language": "Greek",
+      "kind": "root",
+      "meaning": "write; draw",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "autograph",
+          "before": "auto",
+          "focus": "graph",
+          "after": ""
+        },
+        {
+          "word": "graphic",
+          "before": "",
+          "focus": "graph",
+          "after": "ic"
+        }
+      ],
+      "words": [
+        "autograph",
+        "graphic"
+      ]
+    },
+    {
+      "id": "phon",
+      "form": "phon(o)-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "sound; voice",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "microphone",
+          "before": "micro",
+          "focus": "phone",
+          "after": ""
+        },
+        {
+          "word": "phonics",
+          "before": "",
+          "focus": "phon",
+          "after": "ics"
+        }
+      ],
+      "words": [
+        "microphone",
+        "phonics"
+      ]
+    },
+    {
+      "id": "photo",
+      "form": "photo-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "light",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "photograph",
+          "before": "",
+          "focus": "photo",
+          "after": "graph"
+        },
+        {
+          "word": "photosynthesis",
+          "before": "",
+          "focus": "photo",
+          "after": "synthesis"
+        }
+      ],
+      "words": [
+        "photograph",
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "micro",
+      "form": "micro-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "small",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "microscope",
+          "before": "",
+          "focus": "micro",
+          "after": "scope"
+        },
+        {
+          "word": "microchip",
+          "before": "",
+          "focus": "micro",
+          "after": "chip"
+        }
+      ],
+      "words": [
+        "microscope",
+        "microchip"
+      ]
+    },
+    {
+      "id": "macro",
+      "form": "macro-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "large",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "macroscopic",
+          "before": "",
+          "focus": "macro",
+          "after": "scopic"
+        },
+        {
+          "word": "macromolecule",
+          "before": "",
+          "focus": "macro",
+          "after": "molecule"
+        }
+      ],
+      "words": [
+        "macroscopic",
+        "macromolecule"
+      ]
+    },
+    {
+      "id": "hydro",
+      "form": "hydro-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "water",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "hydroelectric",
+          "before": "",
+          "focus": "hydro",
+          "after": "electric"
+        },
+        {
+          "word": "hydrology",
+          "before": "",
+          "focus": "hydro",
+          "after": "logy"
+        }
+      ],
+      "words": [
+        "hydroelectric",
+        "hydrology"
+      ]
+    },
+    {
+      "id": "therm",
+      "form": "therm(o)-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "heat",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "thermal",
+          "before": "",
+          "focus": "therm",
+          "after": "al"
+        },
+        {
+          "word": "thermometer",
+          "before": "",
+          "focus": "therm",
+          "after": "ometer"
+        }
+      ],
+      "words": [
+        "thermal",
+        "thermometer"
+      ]
+    },
+    {
+      "id": "chron",
+      "form": "chron(o)-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "time",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "chronology",
+          "before": "",
+          "focus": "chron",
+          "after": "ology"
+        },
+        {
+          "word": "chronometer",
+          "before": "",
+          "focus": "chron",
+          "after": "ometer"
+        }
+      ],
+      "words": [
+        "chronology",
+        "chronometer"
+      ]
+    },
+    {
+      "id": "auto",
+      "form": "auto-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "self",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "autobiography",
+          "before": "",
+          "focus": "auto",
+          "after": "biography"
+        },
+        {
+          "word": "automatic",
+          "before": "",
+          "focus": "auto",
+          "after": "matic"
+        }
+      ],
+      "words": [
+        "autobiography",
+        "automatic"
+      ]
+    },
+    {
+      "id": "astro",
+      "form": "astro-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "star",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "astronomy",
+          "before": "",
+          "focus": "astro",
+          "after": "nomy"
+        },
+        {
+          "word": "astrophysics",
+          "before": "",
+          "focus": "astro",
+          "after": "physics"
+        }
+      ],
+      "words": [
+        "astronomy",
+        "astrophysics"
+      ]
+    },
+    {
+      "id": "demo",
+      "form": "demo-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "people",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "democracy",
+          "before": "",
+          "focus": "demo",
+          "after": "cracy"
+        },
+        {
+          "word": "demography",
+          "before": "",
+          "focus": "demo",
+          "after": "graphy"
+        }
+      ],
+      "words": [
+        "democracy",
+        "demography"
+      ]
+    },
+    {
+      "id": "cycl",
+      "form": "cycl(o)-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "circle; wheel",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "bicycle",
+          "before": "bi",
+          "focus": "cycle",
+          "after": ""
+        },
+        {
+          "word": "cyclic",
+          "before": "",
+          "focus": "cycl",
+          "after": "ic"
+        }
+      ],
+      "words": [
+        "bicycle",
+        "cyclic"
+      ]
+    },
+    {
+      "id": "poly",
+      "form": "poly-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "many",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "polygon",
+          "before": "",
+          "focus": "poly",
+          "after": "gon"
+        },
+        {
+          "word": "polyglot",
+          "before": "",
+          "focus": "poly",
+          "after": "glot"
+        }
+      ],
+      "words": [
+        "polygon",
+        "polyglot"
+      ]
+    },
+    {
+      "id": "mono",
+      "form": "mono-",
+      "language": "Greek",
+      "kind": "combining form",
+      "meaning": "one; single",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "monorail",
+          "before": "",
+          "focus": "mono",
+          "after": "rail"
+        },
+        {
+          "word": "monochrome",
+          "before": "",
+          "focus": "mono",
+          "after": "chrome"
+        }
+      ],
+      "words": [
+        "monorail",
+        "monochrome"
+      ]
+    },
+    {
+      "id": "scope",
+      "form": "-scope",
+      "language": "Greek",
+      "kind": "final combining form",
+      "meaning": "instrument for viewing",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "telescope",
+          "before": "tele",
+          "focus": "scope",
+          "after": ""
+        },
+        {
+          "word": "microscope",
+          "before": "micro",
+          "focus": "scope",
+          "after": ""
+        }
+      ],
+      "words": [
+        "telescope",
+        "microscope"
+      ]
+    },
+    {
+      "id": "meter",
+      "form": "-meter",
+      "language": "Greek",
+      "kind": "final combining form",
+      "meaning": "measuring instrument",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "thermometer",
+          "before": "thermo",
+          "focus": "meter",
+          "after": ""
+        },
+        {
+          "word": "speedometer",
+          "before": "speedo",
+          "focus": "meter",
+          "after": ""
+        }
+      ],
+      "words": [
+        "thermometer",
+        "speedometer"
+      ]
+    },
+    {
+      "id": "logy",
+      "form": "-logy",
+      "language": "Greek",
+      "kind": "suffix",
+      "meaning": "study of; field of knowledge",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots2/",
+      "examples": [
+        {
+          "word": "biology",
+          "before": "bio",
+          "focus": "logy",
+          "after": ""
+        },
+        {
+          "word": "geology",
+          "before": "geo",
+          "focus": "logy",
+          "after": ""
+        }
+      ],
+      "words": [
+        "biology",
+        "geology"
+      ]
+    },
+    {
+      "id": "port",
+      "form": "port",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "carry",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "transport",
+          "before": "trans",
+          "focus": "port",
+          "after": ""
+        },
+        {
+          "word": "portable",
+          "before": "",
+          "focus": "port",
+          "after": "able"
+        }
+      ],
+      "words": [
+        "transport",
+        "portable"
+      ]
+    },
+    {
+      "id": "spect",
+      "form": "spect",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "look; observe",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "inspect",
+          "before": "in",
+          "focus": "spect",
+          "after": ""
+        },
+        {
+          "word": "spectator",
+          "before": "",
+          "focus": "spect",
+          "after": "ator"
+        }
+      ],
+      "words": [
+        "inspect",
+        "spectator"
+      ]
+    },
+    {
+      "id": "dict",
+      "form": "dict",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "say; speak",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "dictate",
+          "before": "",
+          "focus": "dict",
+          "after": "ate"
+        },
+        {
+          "word": "prediction",
+          "before": "pre",
+          "focus": "dict",
+          "after": "ion"
+        }
+      ],
+      "words": [
+        "dictate",
+        "prediction"
+      ]
+    },
+    {
+      "id": "script",
+      "form": "script",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "write",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "manuscript",
+          "before": "manu",
+          "focus": "script",
+          "after": ""
+        },
+        {
+          "word": "inscription",
+          "before": "in",
+          "focus": "script",
+          "after": "ion"
+        }
+      ],
+      "words": [
+        "manuscript",
+        "inscription"
+      ]
+    },
+    {
+      "id": "tract",
+      "form": "tract",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "pull; draw",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "tractor",
+          "before": "",
+          "focus": "tract",
+          "after": "or"
+        },
+        {
+          "word": "attract",
+          "before": "at",
+          "focus": "tract",
+          "after": ""
+        }
+      ],
+      "words": [
+        "tractor",
+        "attract"
+      ]
+    },
+    {
+      "id": "struct",
+      "form": "struct",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "build",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "construct",
+          "before": "con",
+          "focus": "struct",
+          "after": ""
+        },
+        {
+          "word": "structure",
+          "before": "",
+          "focus": "struct",
+          "after": "ure"
+        }
+      ],
+      "words": [
+        "construct",
+        "structure"
+      ]
+    },
+    {
+      "id": "ject",
+      "form": "ject",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "throw",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "eject",
+          "before": "e",
+          "focus": "ject",
+          "after": ""
+        },
+        {
+          "word": "projector",
+          "before": "pro",
+          "focus": "ject",
+          "after": "or"
+        }
+      ],
+      "words": [
+        "eject",
+        "projector"
+      ]
+    },
+    {
+      "id": "rupt",
+      "form": "rupt",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "break",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "interrupt",
+          "before": "inter",
+          "focus": "rupt",
+          "after": ""
+        },
+        {
+          "word": "rupture",
+          "before": "",
+          "focus": "rupt",
+          "after": "ure"
+        }
+      ],
+      "words": [
+        "interrupt",
+        "rupture"
+      ]
+    },
+    {
+      "id": "vis",
+      "form": "vis",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "see",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "visible",
+          "before": "",
+          "focus": "vis",
+          "after": "ible"
+        },
+        {
+          "word": "vision",
+          "before": "",
+          "focus": "vis",
+          "after": "ion"
+        }
+      ],
+      "words": [
+        "visible",
+        "vision"
+      ]
+    },
+    {
+      "id": "aud",
+      "form": "aud",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "hear",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "audible",
+          "before": "",
+          "focus": "aud",
+          "after": "ible"
+        },
+        {
+          "word": "audience",
+          "before": "",
+          "focus": "aud",
+          "after": "ience"
+        }
+      ],
+      "words": [
+        "audible",
+        "audience"
+      ]
+    },
+    {
+      "id": "pre",
+      "form": "pre-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "before",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "preview",
+          "before": "",
+          "focus": "pre",
+          "after": "view"
+        },
+        {
+          "word": "preheat",
+          "before": "",
+          "focus": "pre",
+          "after": "heat"
+        }
+      ],
+      "words": [
+        "preview",
+        "preheat"
+      ]
+    },
+    {
+      "id": "re",
+      "form": "re-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "again; back",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "reread",
+          "before": "",
+          "focus": "re",
+          "after": "read"
+        },
+        {
+          "word": "rebuild",
+          "before": "",
+          "focus": "re",
+          "after": "build"
+        }
+      ],
+      "words": [
+        "reread",
+        "rebuild"
+      ]
+    },
+    {
+      "id": "sub",
+      "form": "sub-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "under; below",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "submarine",
+          "before": "",
+          "focus": "sub",
+          "after": "marine"
+        },
+        {
+          "word": "subsoil",
+          "before": "",
+          "focus": "sub",
+          "after": "soil"
+        }
+      ],
+      "words": [
+        "submarine",
+        "subsoil"
+      ]
+    },
+    {
+      "id": "inter",
+      "form": "inter-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "between; among",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "international",
+          "before": "",
+          "focus": "inter",
+          "after": "national"
+        },
+        {
+          "word": "intercity",
+          "before": "",
+          "focus": "inter",
+          "after": "city"
+        }
+      ],
+      "words": [
+        "international",
+        "intercity"
+      ]
+    },
+    {
+      "id": "trans",
+      "form": "trans-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "across; beyond",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "transatlantic",
+          "before": "",
+          "focus": "trans",
+          "after": "atlantic"
+        },
+        {
+          "word": "transport",
+          "before": "",
+          "focus": "trans",
+          "after": "port"
+        }
+      ],
+      "words": [
+        "transatlantic",
+        "transport"
+      ]
+    },
+    {
+      "id": "super",
+      "form": "super-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "above; beyond",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "supersonic",
+          "before": "",
+          "focus": "super",
+          "after": "sonic"
+        },
+        {
+          "word": "superimpose",
+          "before": "",
+          "focus": "super",
+          "after": "impose"
+        }
+      ],
+      "words": [
+        "supersonic",
+        "superimpose"
+      ]
+    },
+    {
+      "id": "bi",
+      "form": "bi-",
+      "language": "Latin",
+      "kind": "prefix",
+      "meaning": "two",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "bicycle",
+          "before": "",
+          "focus": "bi",
+          "after": "cycle"
+        },
+        {
+          "word": "bilingual",
+          "before": "",
+          "focus": "bi",
+          "after": "lingual"
+        }
+      ],
+      "words": [
+        "bicycle",
+        "bilingual"
+      ]
+    },
+    {
+      "id": "tri",
+      "form": "tri-",
+      "language": "Greek / Latin",
+      "kind": "prefix",
+      "meaning": "three",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "triangle",
+          "before": "",
+          "focus": "tri",
+          "after": "angle"
+        },
+        {
+          "word": "tricycle",
+          "before": "",
+          "focus": "tri",
+          "after": "cycle"
+        }
+      ],
+      "words": [
+        "triangle",
+        "tricycle"
+      ]
+    },
+    {
+      "id": "aqua",
+      "form": "aqua-",
+      "language": "Latin",
+      "kind": "combining form",
+      "meaning": "water",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "aquarium",
+          "before": "",
+          "focus": "aqua",
+          "after": "rium"
+        },
+        {
+          "word": "aquatic",
+          "before": "",
+          "focus": "aqua",
+          "after": "tic"
+        }
+      ],
+      "words": [
+        "aquarium",
+        "aquatic"
+      ]
+    },
+    {
+      "id": "terr",
+      "form": "terr",
+      "language": "Latin",
+      "kind": "root",
+      "meaning": "earth; land",
+      "source": "https://pressbooks.bccampus.ca/greeklatinroots/",
+      "examples": [
+        {
+          "word": "terrain",
+          "before": "",
+          "focus": "terr",
+          "after": "ain"
+        },
+        {
+          "word": "terrestrial",
+          "before": "",
+          "focus": "terr",
+          "after": "estrial"
+        }
+      ],
+      "words": [
+        "terrain",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "parare",
+      "form": "parāre",
+      "language": "Latin",
+      "kind": "source verb",
+      "meaning": "to prepare; to arrange",
+      "source": "https://www.ahdictionary.com/word/search.html?q=disparate",
+      "words": [
+        "disparate",
+        "prepare",
+        "separate"
+      ],
+      "examples": [
+        {
+          "word": "prepare",
+          "before": "pre",
+          "focus": "par",
+          "after": "e"
+        },
+        {
+          "word": "separate",
+          "before": "se",
+          "focus": "par",
+          "after": "ate"
+        }
+      ]
+    }
+  ]
+}
