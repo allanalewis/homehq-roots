@@ -1,11 +1,14 @@
 {
-  "checked_on": "2026-11-02",
+  "checked_at": "2026-11-02T16:41:10+00:00",
+  "last_success_at": "2026-11-02T16:41:10+00:00",
+  "feed_state": "ok",
   "latest_word": {
     "word": "satiate",
     "date": "2026-11-02",
     "source": "https://www.merriam-webster.com/word-of-the-day/satiate-2026-11-02"
   },
-  "catalog_version": 1,
+  "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 10
+  "pending_review": 10,
+  "resolved_without_root": 0
 }

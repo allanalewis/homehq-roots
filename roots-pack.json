@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "roots": [
     {
       "id": "tele",
@@ -1069,5 +1069,14 @@
         }
       ]
     }
-  ]
+  ],
+  "primary": {
+    "telescope": "tele",
+    "biology": "bio",
+    "geology": "geo",
+    "microscope": "micro",
+    "thermometer": "therm",
+    "bicycle": "cycl",
+    "transport": "port"
+  }
 }
