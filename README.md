@@ -15,8 +15,9 @@ GitHub schedules can be delayed. The app fetches independently once an hour.
 - Publishes changes to `roots-pack.json`, incrementing its version only when root
   content changes.
 - Adds unmatched daily words and their source URLs to `review-queue.json`.
-- Updates `status.json` with the latest successful check date and counts.
-- Leaves the published files unchanged when fetching, parsing or validation fails.
+- Updates `status.json` with attempt/success timestamps, feed health and counts.
+- Preserves prior queue data on source failure while still publishing reviewed
+  catalog changes. Invalid approved catalogs stop publication.
 
 **The workflow does not invent roots or automatically approve new etymologies.**
 The initial catalog has 41 entries. Exact reviewed word mappings are intentionally
@@ -55,3 +56,53 @@ Dictionary entry for disparate. RSS supplies word titles and source links only;
 its dictionary definitions and articles are not republished.
 
 Catalog contributions are offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Reliability and review workflow
+
+The publisher now separates source health from approved publication. A daily-word
+feed outage does not block a reviewed catalog correction. Existing queue entries
+are retained, `status.json` records the failed attempt and last successful fetch,
+and the Actions run fails visibly *after* committing approved publication/status.
+A feed more than two UTC days old is reported as stale. Fetches use bounded reads,
+timeouts, three attempts and reject redirects. No definitions are generated.
+
+`primary` in `approved-roots.json` explicitly selects one root for words with
+multiple valid matches. For example, `telescope` has both tele and scope; selecting
+tele is a display choice, not a claim that scope is unrelated. These choices
+preserve the original display. The publisher rejects missing or invalid choices.
+
+To resolve a word without adding a root, add an entry to `review-decisions.json`:
+
+```json
+{
+  "word": "the exact word",
+  "status": "no-suitable-root",
+  "reason": "Explain the dictionary evidence and why no suitable root is shown.",
+  "source": "https://dictionary.example/entry",
+  "reviewer": "Your name or GitHub handle",
+  "reviewed_on": "2026-11-02"
+}
+```
+
+Use `excluded` for content deliberately kept off the family display. Do not copy
+the illustrative entry literally. Decisions need actual source review. A word
+cannot be both mapped and resolved without a root. Removing a decision allows it
+to re-enter the queue on a future feed appearance. Decisions are review records;
+they do not publish potentially unsuitable text to the app.
+
+Run both before merging:
+
+```sh
+python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/update.py --validate-only
+```
+
+Queue records are not silently truncated, and older RSS appearances cannot replace
+newer dates. Feed order is not assumed. Hourly status uses full UTC timestamps.
+The workflow retries a rejected push by regenerating from the latest main branch
+in its disposable runner; it never force-pushes. All generated files ship in one
+commit. It also reports feed health and pending-review counts in its job summary.
+
+CODEOWNERS and the PR checklist request source review; they do **not** enforce
+branch protection. Maintainers can still bypass the human process. This repository
+does not claim automated linguistic verification or complete daily-word coverage.

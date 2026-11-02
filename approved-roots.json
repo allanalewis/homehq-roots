@@ -1069,5 +1069,14 @@
         }
       ]
     }
-  ]
+  ],
+  "primary": {
+    "telescope": "tele",
+    "biology": "bio",
+    "geology": "geo",
+    "microscope": "micro",
+    "thermometer": "therm",
+    "bicycle": "cycl",
+    "transport": "port"
+  }
 }

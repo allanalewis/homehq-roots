@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['approved-roots.json', 'scripts/**', '.github/workflows/refresh.yml']
+    paths: ['approved-roots.json', 'review-decisions.json', 'scripts/**', '.github/workflows/refresh.yml']
 permissions:
   contents: write
 concurrency:
@@ -14,19 +14,39 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
-      - name: Test catalog and publisher
-        run: python3 -m unittest discover -s scripts -p 'test_*.py'
-      - name: Check daily words and publish reviewed content
-        run: python3 scripts/update.py
-      - name: Save changed catalog and review queue
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Validate, regenerate and publish without overwriting newer commits
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add roots-pack.json review-queue.json status.json
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3; do
+            git fetch origin main
+            # Only the disposable Actions checkout is reset. Never force-push.
+            git reset --hard origin/main
+            python3 -m unittest discover -s scripts -p 'test_*.py'
+            python3 scripts/update.py --validate-only
+            python3 scripts/update.py
+            git add roots-pack.json review-queue.json status.json
+            if git diff --cached --quiet; then break; fi
             git commit -m 'Refresh reviewed roots catalog and daily-word queue'
-            git push
-          fi
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" = 3 ]; then exit 1; fi
+          done
+      - name: Report feed health separately from catalog publication
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          s=json.load(open('status.json'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write(f"Catalog v{s['catalog_version']}; {s['root_count']} roots; {s['pending_review']} pending reviews.\n\nFeed state: {s['feed_state']}.\n")
+          if s['feed_state']!='ok':
+              raise SystemExit('Daily-word source is unavailable or stale. Approved catalog updates were still published; existing review items were kept.')
+          PY
