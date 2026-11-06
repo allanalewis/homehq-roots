@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-06T00:13:50+00:00",
-  "last_success_at": "2026-11-06T00:13:50+00:00",
+  "checked_at": "2026-11-06T06:44:46+00:00",
+  "last_success_at": "2026-11-06T06:44:46+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "effrontery",
-    "date": "2026-11-05",
-    "source": "https://www.merriam-webster.com/word-of-the-day/effrontery-2026-11-05"
+    "word": "quondam",
+    "date": "2026-11-06",
+    "source": "https://www.merriam-webster.com/word-of-the-day/quondam-2026-11-06"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 13,
+  "pending_review": 14,
   "resolved_without_root": 0
 }
