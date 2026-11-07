@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-07T00:54:44+00:00",
-  "last_success_at": "2026-11-07T00:54:44+00:00",
+  "checked_at": "2026-11-07T07:06:30+00:00",
+  "last_success_at": "2026-11-07T07:06:30+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "quondam",
-    "date": "2026-11-06",
-    "source": "https://www.merriam-webster.com/word-of-the-day/quondam-2026-11-06"
+    "word": "abandon",
+    "date": "2026-11-07",
+    "source": "https://www.merriam-webster.com/word-of-the-day/abandon-2026-11-07"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 14,
+  "pending_review": 15,
   "resolved_without_root": 0
 }
