@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-08T02:26:47+00:00",
-  "last_success_at": "2026-11-08T02:26:47+00:00",
+  "checked_at": "2026-11-08T10:15:46+00:00",
+  "last_success_at": "2026-11-08T10:15:46+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "abandon",
-    "date": "2026-11-07",
-    "source": "https://www.merriam-webster.com/word-of-the-day/abandon-2026-11-07"
+    "word": "cockamamie",
+    "date": "2026-11-08",
+    "source": "https://www.merriam-webster.com/word-of-the-day/cockamamie-2026-11-08"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 15,
+  "pending_review": 16,
   "resolved_without_root": 0
 }
