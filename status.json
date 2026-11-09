@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-09T00:51:48+00:00",
-  "last_success_at": "2026-11-09T00:51:48+00:00",
+  "checked_at": "2026-11-09T07:55:56+00:00",
+  "last_success_at": "2026-11-09T07:55:56+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "cockamamie",
-    "date": "2026-11-08",
-    "source": "https://www.merriam-webster.com/word-of-the-day/cockamamie-2026-11-08"
+    "word": "wabi-sabi",
+    "date": "2026-11-09",
+    "source": "https://www.merriam-webster.com/word-of-the-day/wabi-sabi-2026-11-09"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 16,
+  "pending_review": 17,
   "resolved_without_root": 0
 }
