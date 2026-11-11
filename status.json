@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-11T02:50:12+00:00",
-  "last_success_at": "2026-11-11T02:50:12+00:00",
+  "checked_at": "2026-11-11T10:52:35+00:00",
+  "last_success_at": "2026-11-11T10:52:35+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "defer",
-    "date": "2026-11-10",
-    "source": "https://www.merriam-webster.com/word-of-the-day/defer-2026-11-10"
+    "word": "valorous",
+    "date": "2026-11-11",
+    "source": "https://www.merriam-webster.com/word-of-the-day/valorous-2026-11-11"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 18,
+  "pending_review": 19,
   "resolved_without_root": 0
 }
