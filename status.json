@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-14T03:11:54+00:00",
-  "last_success_at": "2026-11-14T03:11:54+00:00",
+  "checked_at": "2026-11-14T10:20:55+00:00",
+  "last_success_at": "2026-11-14T10:20:55+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "impertinent",
-    "date": "2026-11-13",
-    "source": "https://www.merriam-webster.com/word-of-the-day/impertinent-2026-11-13"
+    "word": "boilerplate",
+    "date": "2026-11-14",
+    "source": "https://www.merriam-webster.com/word-of-the-day/boilerplate-2026-11-14"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 21,
+  "pending_review": 22,
   "resolved_without_root": 0
 }
