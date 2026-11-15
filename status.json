@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-15T01:52:41+00:00",
-  "last_success_at": "2026-11-15T01:52:41+00:00",
+  "checked_at": "2026-11-15T09:20:28+00:00",
+  "last_success_at": "2026-11-15T09:20:28+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "boilerplate",
-    "date": "2026-11-14",
-    "source": "https://www.merriam-webster.com/word-of-the-day/boilerplate-2026-11-14"
+    "word": "lissome",
+    "date": "2026-11-15",
+    "source": "https://www.merriam-webster.com/word-of-the-day/lissome-2026-11-15"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 22,
+  "pending_review": 23,
   "resolved_without_root": 0
 }
