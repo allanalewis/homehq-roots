@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-17T03:49:51+00:00",
-  "last_success_at": "2026-11-17T03:49:51+00:00",
+  "checked_at": "2026-11-17T13:20:15+00:00",
+  "last_success_at": "2026-11-17T13:20:15+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "travesty",
-    "date": "2026-11-16",
-    "source": "https://www.merriam-webster.com/word-of-the-day/travesty-2026-11-16"
+    "word": "stolid",
+    "date": "2026-11-17",
+    "source": "https://www.merriam-webster.com/word-of-the-day/stolid-2026-11-17"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 24,
+  "pending_review": 25,
   "resolved_without_root": 0
 }
