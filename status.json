@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-18T04:16:16+00:00",
-  "last_success_at": "2026-11-18T04:16:16+00:00",
+  "checked_at": "2026-11-18T13:07:04+00:00",
+  "last_success_at": "2026-11-18T13:07:04+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "stolid",
-    "date": "2026-11-17",
-    "source": "https://www.merriam-webster.com/word-of-the-day/stolid-2026-11-17"
+    "word": "hobbyhorse",
+    "date": "2026-11-18",
+    "source": "https://www.merriam-webster.com/word-of-the-day/hobbyhorse-2026-11-18"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 25,
+  "pending_review": 26,
   "resolved_without_root": 0
 }
