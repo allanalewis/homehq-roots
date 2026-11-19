@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-19T03:23:15+00:00",
-  "last_success_at": "2026-11-19T03:23:15+00:00",
+  "checked_at": "2026-11-19T12:59:21+00:00",
+  "last_success_at": "2026-11-19T12:59:21+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "hobbyhorse",
-    "date": "2026-11-18",
-    "source": "https://www.merriam-webster.com/word-of-the-day/hobbyhorse-2026-11-18"
+    "word": "upbraid",
+    "date": "2026-11-19",
+    "source": "https://www.merriam-webster.com/word-of-the-day/upbraid-2026-11-19"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 26,
+  "pending_review": 27,
   "resolved_without_root": 0
 }
