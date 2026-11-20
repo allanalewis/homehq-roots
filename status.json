@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-20T03:10:08+00:00",
-  "last_success_at": "2026-11-20T03:10:08+00:00",
+  "checked_at": "2026-11-20T11:32:07+00:00",
+  "last_success_at": "2026-11-20T11:32:07+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "upbraid",
-    "date": "2026-11-19",
-    "source": "https://www.merriam-webster.com/word-of-the-day/upbraid-2026-11-19"
+    "word": "ruthless",
+    "date": "2026-11-20",
+    "source": "https://www.merriam-webster.com/word-of-the-day/ruthless-2026-11-20"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 27,
+  "pending_review": 28,
   "resolved_without_root": 0
 }
