@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-21T01:29:53+00:00",
-  "last_success_at": "2026-11-21T01:29:53+00:00",
+  "checked_at": "2026-11-21T09:45:02+00:00",
+  "last_success_at": "2026-11-21T09:45:02+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "ruthless",
-    "date": "2026-11-20",
-    "source": "https://www.merriam-webster.com/word-of-the-day/ruthless-2026-11-20"
+    "word": "meet-cute",
+    "date": "2026-11-21",
+    "source": "https://www.merriam-webster.com/word-of-the-day/meet-cute-2026-11-21"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 28,
+  "pending_review": 29,
   "resolved_without_root": 0
 }
