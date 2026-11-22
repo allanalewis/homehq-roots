@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-22T03:08:16+00:00",
-  "last_success_at": "2026-11-22T03:08:16+00:00",
+  "checked_at": "2026-11-22T11:16:37+00:00",
+  "last_success_at": "2026-11-22T11:16:37+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "meet-cute",
-    "date": "2026-11-21",
-    "source": "https://www.merriam-webster.com/word-of-the-day/meet-cute-2026-11-21"
+    "word": "copacetic",
+    "date": "2026-11-22",
+    "source": "https://www.merriam-webster.com/word-of-the-day/copacetic-2026-11-22"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 29,
+  "pending_review": 30,
   "resolved_without_root": 0
 }
