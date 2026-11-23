@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-23T00:17:44+00:00",
-  "last_success_at": "2026-11-23T00:17:44+00:00",
+  "checked_at": "2026-11-23T08:58:51+00:00",
+  "last_success_at": "2026-11-23T08:58:51+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "copacetic",
-    "date": "2026-11-22",
-    "source": "https://www.merriam-webster.com/word-of-the-day/copacetic-2026-11-22"
+    "word": "optimization",
+    "date": "2026-11-23",
+    "source": "https://www.merriam-webster.com/word-of-the-day/optimization-2026-11-23"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 30,
+  "pending_review": 31,
   "resolved_without_root": 0
 }
