@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-26T04:59:27+00:00",
-  "last_success_at": "2026-11-26T04:59:27+00:00",
+  "checked_at": "2026-11-26T15:09:55+00:00",
+  "last_success_at": "2026-11-26T15:09:55+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "arbiter",
-    "date": "2026-11-25",
-    "source": "https://www.merriam-webster.com/word-of-the-day/arbiter-2026-11-25"
+    "word": "felicitous",
+    "date": "2026-11-26",
+    "source": "https://www.merriam-webster.com/word-of-the-day/felicitous-2026-11-26"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 33,
+  "pending_review": 34,
   "resolved_without_root": 0
 }
