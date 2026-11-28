@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-28T01:56:58+00:00",
-  "last_success_at": "2026-11-28T01:56:58+00:00",
+  "checked_at": "2026-11-28T10:21:23+00:00",
+  "last_success_at": "2026-11-28T10:21:23+00:00",
   "feed_state": "ok",
   "latest_word": {
-    "word": "injunction",
-    "date": "2026-11-27",
-    "source": "https://www.merriam-webster.com/word-of-the-day/injunction-2026-11-27"
+    "word": "parse",
+    "date": "2026-11-28",
+    "source": "https://www.merriam-webster.com/word-of-the-day/parse-2026-11-28"
   },
   "catalog_version": 2,
   "root_count": 41,
-  "pending_review": 35,
+  "pending_review": 36,
   "resolved_without_root": 0
 }
